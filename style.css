@@ -329,6 +329,13 @@ a{
     height: 250vmin;
   }
 
+  h1{
+    -webkit-text-stroke: 0.5px black;
+  }
 
+  .blackOwned h1{
+    -webkit-text-stroke: 0.5px white;
+
+  }
 
 }
