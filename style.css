@@ -224,8 +224,14 @@ a{
 
   .landingPage{
     background-image: url('Mask Group 18.png');
-    background-size: 100%;
+    background-size: cover;
     height: 150vmin;
+  }
+  .coverText{
+    color: white;
+    text-align: center;
+    line-height: 1vmin;
+
   }
   .streetwearEdition{
     background-image: none;
@@ -342,6 +348,10 @@ a{
   .blackOwned h1{
     -webkit-text-stroke: 0.5px white;
 
+  }
+
+  .coverText h1{
+    -webkit-text-stroke: 0px;
   }
 
 }
