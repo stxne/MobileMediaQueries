@@ -209,7 +209,7 @@ a{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
   p{
     font-family: Amiri;
     font-size: 4vmin;
