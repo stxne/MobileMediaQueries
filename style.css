@@ -209,6 +209,11 @@ a{
 
 }
 
+.insetSection {
+  -webkit-box-shadow: inset 0px 9px 20px -5px #000000;
+  box-shadow: inset 0px 9px 20px -5px #000000;
+}
+
 @media screen and (max-width: 900px){
   p{
     font-family: Amiri;
@@ -219,6 +224,7 @@ a{
 
   .landingPage{
     background-image: url('Mask Group 18.png');
+    background-size: 100%;
     height: 150vmin;
   }
   .streetwearEdition{
