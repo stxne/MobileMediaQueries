@@ -224,8 +224,7 @@ a{
 
   .landingPage{
     background-image: url('Mask Group 18.png');
-    background-size: contain;
-    height: 150vmin;
+    height: 180vmin;
   }
   .coverText{
     color: white;
@@ -270,7 +269,7 @@ a{
   }
   .logoMania{
     background-image: url('logomania asmall.png');
-    background-size: contain;
+    background-size: 100%;
     background-position: top;
     height: 210vmin;
     display: flex;
@@ -287,7 +286,7 @@ a{
   .sneakerCulture{
     background-image: url("Air Jordan 1 High OG.png");
     height: 225vmin;
-    background-size:contain;
+    background-size:auto;
     background-repeat: no-repeat;
     background-position:top;
 
