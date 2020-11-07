@@ -209,7 +209,7 @@ a{
 
 }
 
-@media screen and (max-width: 400){
+@media screen and (max-width: 768px){
   p{
     font-family: Amiri;
     font-size: 4vmin;
@@ -229,8 +229,6 @@ a{
   .streetwearEdition h1{
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;
-  text-align: center;
-  padding-top: 1vmin;
   }
   .streetwearEdition p{
     padding: 0px 5vmin 0px 5vmin;
@@ -243,7 +241,7 @@ a{
     background-attachment: inherit;
     height: 170vmin;
     flex-direction: column;
-    background-color:#F1C227
+    background-color:#F1C227;
   }
   .streetwearToday h1{
     padding:0vmin 0px 58vmin 3vmin;
