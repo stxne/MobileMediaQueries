@@ -239,6 +239,11 @@ a{
     background-color: #E9BEDC;
   }
 
+  .streetwearEdition h1{
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke: 0.25px black;
+  }
+
   .streetwearEdition p{
     padding: 0px 5vmin 0px 5vmin;
   }
@@ -253,8 +258,8 @@ a{
     background-color:#F1C227;
   }
   .streetwearToday h1{
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke: 0px;
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke: 0.25px black;
     padding:0vmin 0px 58vmin 3vmin;
 
   }
@@ -294,8 +299,8 @@ a{
   }
 
   .sneakerCulture h1{
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 0px;
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke: 0.25px white;
   }
 
   .shoesImage{
@@ -324,8 +329,8 @@ a{
   }
 
   .conclusion h1{
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke: 0px;
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke: 0.25px black;
     font-size: 7.5vmin;
     padding:3vmin 0px 0px 10vmin;
   }
@@ -346,8 +351,8 @@ a{
 
 
   .blackOwned h1{
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 0px;
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke: 0.25px white;
   }
 
   .coverText h1{
