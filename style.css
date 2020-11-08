@@ -238,10 +238,7 @@ a{
     height: 150vmin;
     background-color: #E9BEDC;
   }
-  .streetwearEdition h1{
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px black;
-  }
+
   .streetwearEdition p{
     padding: 0px 5vmin 0px 5vmin;
   }
@@ -256,6 +253,8 @@ a{
     background-color:#F1C227;
   }
   .streetwearToday h1{
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 0px;
     padding:0vmin 0px 58vmin 3vmin;
 
   }
@@ -272,6 +271,7 @@ a{
     background-image: url('logomania asmall.png');
     background-size: 100%;
     background-position: top;
+    background-attachment: inherit;
     height: 210vmin;
     display: flex;
     align-items: flex-end;
@@ -287,13 +287,16 @@ a{
   .sneakerCulture{
     background-image: url("Air Jordan 1 High OG.png");
     height: 225vmin;
-    background-size:auto;
+    background-size:100%;
     background-repeat: no-repeat;
+    background-attachment: inherit;
     background-position:top;
-
-
   }
 
+  .sneakerCulture h1{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0px;
+  }
 
   .shoesImage{
     flex-direction: column;
@@ -321,8 +324,8 @@ a{
   }
 
   .conclusion h1{
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 0px;
     font-size: 7.5vmin;
     padding:3vmin 0px 0px 10vmin;
   }
@@ -341,16 +344,14 @@ a{
     height: 250vmin;
   }
 
-  h1{
-    -webkit-text-stroke: 0.5px black;
-  }
 
   .blackOwned h1{
-    -webkit-text-stroke: 0.5px white;
-
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0px;
   }
 
   .coverText h1{
+    color: white;
     -webkit-text-stroke: 0px;
   }
 
